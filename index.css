@@ -1,0 +1,165 @@
+/* 设置页面整体得margin padding为0 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 设置header头部样式 */
+#header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 75px;
+  align-items: center;
+  position: fixed;
+}
+/* 设置a标签左右间距为20px */
+a {
+  font-size: 14px;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #ff8500;
+}
+/* 设置小米icon向右推20px */
+.icon {
+  margin-left: 20px;
+}
+.icon img {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+}
+.context {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  background-color: #8eb7e2;
+}
+.context img {
+  width: 100%;
+}
+.context1 {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  background-color: #8eb7e2;
+}
+.context1 img {
+  width: 100%;
+}
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+}
+.zuo {
+  display: flex;
+  justify-content: center;
+  width: 28%;
+}
+.you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+.you p {
+  padding: 5px;
+}
+.choose {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+.choose a:hover {
+  color: #ff8500;
+}
+.footer span {
+  margin-bottom: 35px;
+  font-size: 16px;
+  color: black;
+}
+.footer a {
+  font-size: 12px;
+  padding: 5px 0;
+  color: grey;
+}
+.trademark {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+  background-color: #fafafa;
+}
+.icon1 {
+  margin-top: 30px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: right;
+  width: 15%;
+}
+.icon1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+.message {
+  margin-top: 30px;
+  width: 80%;
+}
+.message a {
+  font-size: 12px;
+  color: gray;
+  padding: 1px;
+}
+.color a {
+  color: #d4d4d6;
+}
+.message a:hover {
+  color: #ff8500;
+}
+.fixeded {
+  margin-top: 30px;
+  display: flex;
+  width: 20%;
+}
+.fixeded span {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #bbbbbb;
+}
+@keyframes import {
+  from {
+    background-color: "";
+  }
+  to {
+    background-color: black;
+  }
+}
+@keyframes export {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: "";
+  }
+}
+.import {
+  animation: import 2s linear forwards;
+}
+.export {
+  animation: export 2s linear forwards;
+}
